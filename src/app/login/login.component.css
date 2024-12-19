@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  background: linear-gradient(120deg, #89F7FE, #66A6FF);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.screen {
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  padding: 40px 30px;
+}
+
+.screen__header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.screen__header h1 {
+  font-size: 24px;
+  color: #333333;
+}
+
+.login__field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.login__input {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.login__input:focus {
+  outline: none;
+  border-color: #66A6FF;
+}
+
+.login__icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  color: #66A6FF;
+}
+
+.login__submit {
+  width: 100%;
+  padding: 15px;
+  background: #66A6FF;
+  border: none;
+  border-radius: 25px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login__submit:hover {
+  background: #4d8cd8;
+}
+
+.social-login {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.social-login__icon {
+  font-size: 20px;
+  margin: 0 10px;
+  color: #66A6FF;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.social-login__icon:hover {
+  color: #4d8cd8;
+  transform: scale(1.2);
+}

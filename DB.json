@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "email": "mohamedbenmohamed@gmail.com",
+      "password": "$2a$10$TA3.N2GUZdkjqMqeNrcDkeeF88dvef1ZvEo.G5aG.eT6/aRAKO75C",
+      "name": "mohamed",
+      "username": "benmohamed",
+      "role": "ROLE_ADMIN",
+      "id": 1
+    },
+    {
+      "email": "benromdhane.firas@esprit.tn",
+      "password": "$2a$10$G7FNLm0T0M9OjYJ04Oa3ReH0nHIy6qvt5E9aDOhaOydxFPj99dWr2",
+      "name": "mohamed",
+      "username": "benmohamed",
+      "role": "ROLE_ADMIN",
+      "id": 2
+    }
+  ],
+  "otherCollections": []
+}
